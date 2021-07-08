@@ -1,0 +1,25 @@
+body
+	+light
+	color: $text-color
+
+.button-all
+	border: 2px solid $primary
+	color: $primary
+	text-transform: uppercase
+	padding: 17px 22px
+	font-size: 12px
+	+bold
+	background-color: #fff
+	cursor: pointer
+
+.button
+	padding: 25px 45px
+	text-transform: uppercase
+	border: 0
+	background-color: $primary
+	color: #fff
+	+bold
+
+@media (max-width: 576px)
+	.button-all
+		font-size: 10px
